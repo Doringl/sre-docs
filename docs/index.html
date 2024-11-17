@@ -46,10 +46,14 @@
       :root {
         /* --theme-hue: 325; */
         --content-max-width: 70em;
+        --cover-max-width: 70em;
         --sidebar-width: 18em;
       }
       .cover .cover-main {
-        min-width: 70em;
+        width: 100%;
+      }
+      #docsify-darklight-theme {
+        right: 20px;
       }
     </style>
   </head>
@@ -58,7 +62,7 @@
     <script>
       window.$docsify = {
         homepage: 'home.md',
-        basePath: '/sre-docs/',
+        basePath: '/',
         name: 'SRE Documents',
         repo: 'https://github.com/Doringl/sre-docs.git',
         coverpage: ['/', false],

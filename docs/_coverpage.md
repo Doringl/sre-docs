@@ -1,6 +1,6 @@
-![kubernetes-logo](_media/kubernetes-logo.svg)
+![kubernetes-logo](_media/kubernetes-logo.svg ':size=50%')
 
-# SRE Documents <small>1.0.0</small>
+# SRE Documents <small>1.0.1</small>
 
 > A magical documentation site generator.
 

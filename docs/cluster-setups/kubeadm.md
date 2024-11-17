@@ -1,13 +1,13 @@
 # Kubeadm Cluster Kurulumu
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; flex-wrap: wrap; justify-content: center">
+  <div style="margin-right: 20px;">
+    <img src="/sre_docs/_media/kubeadm-logo.svg" alt="kubeadm-logo" style="max-width: 200px;" width="200" height="200" />
+  </div>
   <div style="flex: 1; text-align: left;">
     <blockquote>
       Kubeadm, Kubernetes Cluster'ın hızlı ve kolay bir şekilde kurulmasını, yapılandırılmasını ve birleştirilmesini sağlayan bir komut satırı aracıdır. Kubernetes bileşenlerini manuel olarak kurmaya kıyasla, Kubeadm, gerekli adımları otomatikleştirerek kurulum sürecini oldukça kolaylaştırır.
     </blockquote>
-  </div>
-  <div style="margin-left: 20px;">
-    <img src="../_media/kubeadm-logo.svg" alt="kubeadm-logo" style="max-width: 200px;" width="200" height="200" />
   </div>
 </div>
 

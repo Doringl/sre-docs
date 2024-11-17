@@ -2,7 +2,6 @@
 
 ---
 
-
 1.  MySQL apt repository yapılandırma dosyasını indirir.
 
 

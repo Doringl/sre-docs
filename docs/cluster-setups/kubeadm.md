@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center; flex-wrap: wrap; justify-content: center">
   <div style="margin-right: 20px;">
-    <img src="/sre_docs/_media/kubeadm-logo.svg" alt="kubeadm-logo" style="max-width: 200px;" width="200" height="200" />
+    <img src="/sre-docs/_media/kubeadm-logo.svg" alt="kubeadm-logo" style="max-width: 200px;" width="200" height="200" />
   </div>
   <div style="flex: 1; text-align: left;">
     <blockquote>

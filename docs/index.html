@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SRE Documents</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="SRE Documents" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+
+    <!-- Docsify-Themeable -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/style.min.css"
+      type="text/css"
+    />
+
+    <!-- Theme: Simple (light + dark) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+      title="light"
+    />
+    <link
+      rel="stylesheet alternative"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+      title="dark"
+    />
+
+    <!-- Cover Page -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-vite-coverpage@main/docsify-vite-coverpage.css"
+    />
+
+    <!-- Breadcrumb -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-breadcrumb@latest/dist/breadcrumb.min.css"
+    /> -->
+
+    <!-- Custom Styles -->
+    <style>
+      :root {
+        /* --theme-hue: 325; */
+        --content-max-width: 70em;
+        --sidebar-width: 18em;
+      }
+      .cover .cover-main {
+        min-width: 70em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">Lütfen bekleyin...</div>
+    <script>
+      window.$docsify = {
+        homepage: 'home.md',
+        basePath: '/',
+        name: 'SRE Documents',
+        repo: 'https://github.com/Doringl/sre-docs.git',
+        coverpage: ['/', false],
+        loadSidebar: true,
+        /* loadNavbar: true,
+        onlyCover: true, */
+        subMaxLevel: 2,
+        sidebarDisplayLevel: 0,
+        pagination: {
+          previousText: 'Geri',
+          nextText: 'İleri',
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        copyCode: {
+          buttonText: 'Kopyala',
+          errorText: 'Kopyalama sırasında hata',
+          successText: 'Kopyalama başarılı',
+        },
+        search: {
+          placeholder: 'Ara',
+          noData: 'Sonuç bulunamadı!',
+        },
+      };
+    </script>
+    <!-- Required -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js"
+      type="text/javascript"
+    ></script>
+    <script>
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
+
+    <!-- Recommended -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-breadcrumb@latest/dist/index.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  </body>
+</html>
